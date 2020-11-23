@@ -8,6 +8,9 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
+              auth:
+          username: Venkat8123
+          password: Venkat@18  # context / project UI env-var reference
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
